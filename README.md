@@ -3,6 +3,10 @@
 ## 🧭 Overview  
 Welcome to the “Movie Seat Booking System”—an end-to-end web application built to simplify the process of selecting and reserving seats for movies in a theatre. From browsing available screenings, choosing your seat, to confirming your booking, the aim is to make the user experience smooth, intuitive, and reliable.
 
+### 🖥️ Screenshots
+
+![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/046114db04d0832d54113988d91b4ce9d2adee86/Movie-Home-Page.png)
+
 ## 🎯 Motivation & Purpose  
 While working on my full-stack development journey, I wanted to create a project that combines both front-end and back-end skills, and offers a real-world use case. The goal was to:  
 - Simulate a live booking scenario (which many users can relate to).  
