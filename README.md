@@ -6,7 +6,8 @@ Welcome to the “Movie Seat Booking System”—an end-to-end web application b
 ### 🖥️ Screenshots
 
 ![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/046114db04d0832d54113988d91b4ce9d2adee86/Movie-Home-Page.png)
-![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/b923e7ede45ff83327108bf3f88f393349c7bfed/Seat-Booking-Page.png) ![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/b923e7ede45ff83327108bf3f88f393349c7bfed/Ticket-Confirm-Page.png)
+![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/b923e7ede45ff83327108bf3f88f393349c7bfed/Seat-Booking-Page.png) 
+![image alt](https://github.com/Sreenu-13/Movie-Seat-Booking-System/blob/b923e7ede45ff83327108bf3f88f393349c7bfed/Ticket-Confirm-Page.png)
 
 ## 🎯 Motivation & Purpose  
 While working on my full-stack development journey, I wanted to create a project that combines both front-end and back-end skills, and offers a real-world use case. The goal was to:  
@@ -34,46 +35,38 @@ While working on my full-stack development journey, I wanted to create a project
 
 ## 📂 Architecture & Project Structure  
 
-FILIMBOOKING
-│
-├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com.bus
-│ │ │ ├── beans
-│ │ │ │ ├── CurrentDateOperation.java
-│ │ │ │ ├── Customer.java
-│ │ │ │ ├── MovieDetails.java
-│ │ │ │ ├── OrderHistory.java
-│ │ │ │ ├── Seat.java
-│ │ │ ├── filter
-│ │ │ │ └── BusFilter.java
-│ │ │ ├── service
-│ │ │ │ ├── CustomerDao.java
-│ │ │ │ ├── CustomerRepo.java
-│ │ │ │ ├── HistoryRepo.java
-│ │ │ │ ├── MovieRepo.java
-│ │ │ │ ├── MovieService.java
-│ │ │ │ ├── OpeningDate.java
-│ │ │ │ └── SeatRepo.java
-│ │ │ ├── BusConfig.java
-│ │ │ ├── BusController.java
-│ │ │ └── BusExperimentApplication.java
-│ │ └── resources
-│ │ ├── static
-│ │ │ ├── css/
-│ │ │ ├── images/
-│ │ │ └── webfonts/
-│ │ ├── templates/
-│ │ └── application.properties
-│ └── test/
-│
-├── .gitignore
-├── pom.xml
-├── mvnw
-├── mvnw.cmd
+FILIMBOOKING  
+├── src  
+│   ├── main  
+│   │   ├── java/com/bus  
+│   │   │   ├── beans/  
+│   │   │   │   ├── CurrentDateOperation.java  
+│   │   │   │   ├── Customer.java  
+│   │   │   │   ├── MovieDetails.java  
+│   │   │   │   ├── OrderHistory.java  
+│   │   │   │   └── Seat.java  
+│   │   │   ├── filter/BusFilter.java  
+│   │   │   ├── service/  
+│   │   │   │   ├── CustomerDao.java  
+│   │   │   │   ├── CustomerRepo.java  
+│   │   │   │   ├── HistoryRepo.java  
+│   │   │   │   ├── MovieRepo.java  
+│   │   │   │   ├── MovieService.java  
+│   │   │   │   ├── OpeningDate.java  
+│   │   │   │   └── SeatRepo.java  
+│   │   │   ├── BusConfig.java  
+│   │   │   ├── BusController.java  
+│   │   │   └── BusExperimentApplication.java  
+│   │   └── resources/  
+│   │       ├── static/ (css, images, webfonts)  
+│   │       ├── templates/  
+│   │       └── application.properties  
+│   └── test/  
+│  
+├── pom.xml  
+├── mvnw / mvnw.cmd  
+├── .gitignore  
 └── README.md
-
 
 ---
 
