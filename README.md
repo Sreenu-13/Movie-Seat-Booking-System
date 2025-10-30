@@ -19,7 +19,6 @@ While working on my full-stack development journey, I wanted to create a project
 - Responsive UI, compatible across desktop and mobile screens.  
 
 ## 🛠️ Tech Stack  
-|-----------------------------------------------------------------------|
 | Layer        | Technologies Used                                      |
 |--------------|--------------------------------------------------------|
 | Back-end     | Java, Spring Boot, Hibernate (ORM), MySQL              |
@@ -27,7 +26,6 @@ While working on my full-stack development journey, I wanted to create a project
 | API Design   | RESTful endpoints supporting GET / POST / PUT / DELETE |
 | Build & Dev  | Maven/Gradle, IntelliJ IDEA / VS Code                  |
 | Other Tools  | Git / GitHub, Postman (for API testing)                |
-|-----------------------------------------------------------------------|
 
 ## 📂 Architecture & Project Structure  
 
