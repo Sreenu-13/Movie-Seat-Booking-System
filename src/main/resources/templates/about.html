@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/css/all.css}" />
+    <link rel="stylesheet" th:href="@{/css/index.css}" />
+</head>
+<body>
+    <div class="container base">
+        <div class="row base-row">
+            <div class="col-3 menu">
+                <div class="logo mb-5 text-center text-light bg-dark pt-1 pb-1">
+                    <h4>Inamkes Gold Theatre</h4>
+                </div>
+                <ul class="list">
+                    <li><a th:classappend="${menu == 'home'} ? 'text-dark' : ''" th:href="@{/}"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a></li>
+                    <li><a th:href="@{/register}"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Register</a></li>
+                    <li><a th:href="@{/loginForm}"><i class="fas fa-users"></i>&nbsp;&nbsp;Login</a></li>
+                    <li><a th:href="@{/about}"><i class="fas fa-address-card"></i>&nbsp;&nbsp;About us</a></li>
+                    <li><a th:href="@{/contact}"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;Contact us</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-9 content">
+                <h1>About Us</h1>
+                <p>Welcome to Inamkes Gold Theatre, your number one destination for an unforgettable movie experience! Established in 2021, our goal has always been to provide a premier cinema experience, combining comfort, cutting-edge technology, and a passion for film.</p>
+                <p>At Inamkes Gold Theatre, we pride ourselves on:</p>
+                <ul>
+                    <li><strong>State-of-the-art screens</strong> – Enjoy the latest in projection and sound technology.</li>
+                    <li><strong>Luxurious seating</strong> – Relax in comfortable, reclining seats while you enjoy the show.</li>
+                    <li><strong>A wide selection of films</strong> – From blockbusters to indie gems, we bring the best of cinema to you.</li>
+                    <li><strong>Top-tier service</strong> – Our staff is dedicated to making your visit a memorable one.</li>
+                </ul>
+                <p>Our mission is to create an entertainment venue where moviegoers of all ages can enjoy the magic of cinema. We are constantly improving and innovating to ensure you have the best experience possible.</p>
+                <p>Thank you for choosing Inamkes Gold Theatre. We hope to see you at the movies soon!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
